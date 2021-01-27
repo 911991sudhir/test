@@ -1,0 +1,377 @@
+
+
+
+
+/* XS Extra small devices (portrait phones, less than 576px) mobile first*/
+@media (max-width: 575.98px) { 
+	.logo {
+		max-width: 55px;
+	}
+	body{
+		/* padding-top:22px; */		
+	}
+	.secpadhome{
+		padding-top:50px;		
+	}	
+	.secpad{
+		padding-top:80px;		
+	}	
+	.carousel-indicators {
+		bottom: 33px;
+	}
+	.carousel-control-next-icon, .carousel-control-prev-icon {
+		background-color: #6c08f5;
+		padding: 10px;
+	}
+	.navbar-nav>li>a{
+		font-size: 13px;
+	}
+	.logtxt{
+	    font-size: 12px;
+	}
+	.navbar{
+		padding: 12px 20px;
+	}
+	.sec1{		
+		margin-top: 0px;
+	}
+	.carousel-caption {		
+		bottom: 35px;
+		margin-left: -15px;
+	}
+	.carousel-caption p:nth-child(1){
+		font-size: 20px;
+	}
+	.carousel-caption p:nth-child(2){
+		font-size: 10px;
+		width: 85%;
+		margin-top: 20px;
+		line-height: 20px;
+	}
+	.secpad{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.sec2leftwrap{
+	    width: 100%;
+		color: #fff;
+		float: none;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.sec2leftwrap p:nth-child(1){
+		font-size: 20px;
+	}
+	.sec2leftwrap p:nth-child(2){
+		font-size: 13px;
+		line-height: 23px;
+		margin-top: 20px;
+	}
+	.sec2rightwrap{		
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.formwrapper{		
+		width: 75%;
+	}
+ }
+ 
+ @media (max-width: 320px) { 	
+	.carousel-indicators {
+		bottom: 13px;
+	}
+	.navbar-nav>li>a{
+		font-size: 13px;
+	}
+	.logtxt{
+	    font-size: 12px;
+	}
+	.carousel-caption {		
+		bottom: 15px;
+		margin-left: -5px;
+	}
+	.carousel-caption p:nth-child(1){
+		font-size: 15px;
+	}
+	.carousel-caption p:nth-child(2){
+	    font-size: 8px;
+		width: 85%;
+		margin-top: 10px;
+		line-height: 12px;
+	}
+	.secpad{
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
+	.formwrapper{		
+		width: 85%;
+	}
+ }
+
+ /* SM Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+	.logo {
+		max-width: 55px;
+	}
+	.secpadhome{
+		padding-top:80px;		
+	}
+	.navbar{
+		padding: 10px 25px;
+	}
+	.navbar-brand {
+		float: left;
+		height: auto;
+		margin-left: auto !important;
+		padding: 0;
+		margin: 0 auto;
+		width: 0%;
+	}
+	.navbar-collapse{
+		margin-top: 2px;
+	}
+	/* body{
+		padding-top:45px;
+	} */	
+	.carousel-indicators {
+		bottom: 33px;
+	}
+	.carousel-control-next-icon, .carousel-control-prev-icon {
+		background-color: #6c08f5;
+		padding: 10px;
+	}
+	.navbar-nav>li>a{
+		font-size: 13px;
+	}
+	.logtxt{
+	    font-size: 12px;
+	}
+	.carousel-caption {
+		text-align: left;
+		bottom: 70px;
+	}
+	.carousel-caption p:nth-child(1){
+		font-size: 40px;
+	}
+	.carousel-caption p:nth-child(2){
+		font-size: 14px;
+		width: 75%;
+		margin-top: 20px;
+		line-height: 20px;
+	}
+	.secpad{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.sec2leftwrap{
+	    width: 100%;
+		color: #fff;
+		float: none;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.sec2leftwrap p:nth-child(1){
+		font-size: 20px;
+	}
+	.sec2leftwrap p:nth-child(2){
+		font-size: 13px;
+		line-height: 23px;
+		margin-top: 20px;
+	}
+	.sec2rightwrap{		
+		text-align: center;
+		margin-bottom: 40px;
+	}
+	.formwrapper{		
+		width: 60%;
+	}
+ }
+
+/*  MD Medium devices (tablets, 768px and up)*/ 
+@media (min-width: 768px) { 
+	.logo {
+		max-width: 50px;
+	}		
+	
+	.navbar-brand {
+		float: left;
+		height: auto;
+		margin-left: 15px !important;
+		padding: 0;
+		margin: 0 auto;
+		width: auto;
+	}	
+	.carousel-indicators {
+		bottom: 35px;
+	}	
+	.carousel-control-next-icon, .carousel-control-prev-icon{
+		background-color: #6c08f5;
+		padding: 15px;
+	}
+	.navbar-nav>li>a{
+		font-size: 13px;
+	}
+	.logtxt{
+	    font-size: 12px;
+	}
+	.sec1{		
+		margin-top: -75px;
+	}
+	.carousel-caption {
+		text-align: left;
+		bottom: 70px;
+		margin-left: -55px;
+	}
+	.carousel-caption p:nth-child(1){
+		font-size: 40px;
+	}
+	.carousel-caption p:nth-child(2){
+		font-size: 14px;
+		width: 60%;
+		margin-top: 20px;
+		line-height: 20px;
+	}
+	.secpad{
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	.formwrapper{		
+		width: 60%;
+	}
+ }
+
+/*  LG Large devices (desktops, 992px and up) */
+@media (min-width: 992px)    { 		
+	.carousel-indicators {
+		bottom: 100px;
+	}	
+	.navbar-nav>li>a{
+		font-size: 13px;
+	}
+	.logtxt{
+	    font-size: 12px;
+	}	
+	.navbar{
+		padding: 12px 50px;
+	}
+	.carousel-caption {		
+		bottom: 140px;
+	}
+	.carousel-caption p:nth-child(1){
+		font-size: 40px;
+	}
+	.carousel-caption p:nth-child(2){
+		font-size: 14px;
+		width: 45%;
+		margin-top: 20px;
+		line-height: 30px;
+	}
+	.secpad{
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+	.sec2leftwrap{
+		width: 55%;
+		color: #fff;
+		float: right;
+	}
+	.sec2leftwrap p:nth-child(1){
+		font-size: 20px;
+	}
+	.sec2leftwrap p:nth-child(2){
+		font-size: 13px;
+		line-height: 23px;
+		margin-top: 20px;
+	}
+	.sec2rightwrap{		
+		text-align: left;
+		margin-bottom: 0px;
+	}
+ }
+
+/*  XL Extra large devices (large desktops, 1200px and up) desktops second*/ 
+@media (min-width: 1200px) { 	
+	.carousel-indicators {
+		bottom: 190px;
+	}
+	.navbar-nav>li>a{
+		font-size: 15px;
+	}
+	.logtxt{
+	    font-size: 14px;
+	}
+	.carousel-caption {		
+		bottom: 250px;
+	}
+	.carousel-caption p:nth-child(1){
+		font-size: 50px;
+	}
+	.carousel-caption p:nth-child(2){
+		font-size: 19px;
+		width: 48%;
+		margin-top: 20px;
+		line-height: 30px;
+	}
+	.secpad{
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+ }
+ 
+ /*  (larger desktops, 1400px and up)*/ 
+@media (min-width: 1400px) { 
+	.carousel-indicators {
+		bottom: 220px;
+	}
+	.navbar-nav>li>a{
+		font-size: 19px;
+	}
+	.logtxt{
+	    font-size: 17px;
+	}
+	.carousel-caption {		
+		bottom: 280px;
+	}
+	.carousel-caption p:nth-child(1){
+		font-size: 73px;
+	}
+	.carousel-caption p:nth-child(2){
+		font-size: 23px;
+		width: 55%;
+		margin-top: 20px;
+		line-height: 30px;
+	}
+	.secpad{
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+ }
+ 
+ /*  (largest desktops, 1600px and up)*/ 
+@media (min-width: 1600px) { 
+	.carousel-indicators {
+		bottom: 250px;
+	}
+	.navbar-nav>li>a{
+		font-size: 25px;
+	}
+	.logtxt{
+	    font-size: 23px;
+	}
+	.carousel-caption {		
+		bottom: 320px;
+	}
+	.carousel-caption p:nth-child(1){
+		font-size: 73px;
+	}
+	.carousel-caption p:nth-child(2){
+		font-size: 23px;
+		width: 45%;
+		margin-top: 20px;
+		line-height: 30px;
+	}
+	.secpad{
+		padding-top: 80px;
+		padding-bottom: 80px;
+	}
+ }
